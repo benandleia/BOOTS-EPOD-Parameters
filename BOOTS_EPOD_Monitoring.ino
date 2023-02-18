@@ -3,6 +3,8 @@ BOOTS EPOD Monitor - Feb 16, 2023
 
 Use BME280 pressure, temp and humidity sensors to measure these parameters in the BOOTS EPOD
 
+Temp is in Celsius, Pressure is in hPa, Humidity is in %.
+
 Use BlueRobotics SOS Leak Sensor to detect leaks
 
 Concatenate all data into a string, to be sent our via Arduino Nano hardware serial port (pins 0 & 1) at 9600-8-N-1:
